@@ -1,0 +1,22 @@
+.card.bg-light:hover {
+    color: rgba(228, 241, 254, 1);
+    transition: color 1s, background-color 2s;
+    background-color: #007bff !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-dark .navbar-brand:hover {
+    color: rgba(30, 139, 195, 1) !important;
+}
+
+
+#slider {
+    background-image: linear-gradient(rgba(129, 207, 224, .5), rgba(44, 62, 80, .7)), url(../../img/oneway.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
